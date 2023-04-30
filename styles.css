@@ -1,4 +1,10 @@
 /*  your css code here. If applicable */
+.main::before{
+	content:"Before element";
+	color: red;
+}
+
 .main::after{
-	contert:"Before element"
+	content:"After element";
+	color: red;
 }
